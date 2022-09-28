@@ -1,0 +1,19 @@
+{
+	"theme-data":
+	{
+		"name": "ElTheme3",
+		"description": "Simple and dark theme for Bludit CMS v3"
+	},
+	"toogle-navigation": "Zobrazit navigaci",
+	"all-posts-from-category": "Všechny příspěvky z rubriky",
+	"all-posts-with-tag": "Všechny příspěvky se štítkem",
+	"rss-feed": "RSS",
+	"related-posts": "Podobné příspěvky",
+	"no-related-posts-found!": "Žádné podobné příspěvky nebyly zatím nalezeny.",
+	"tags": "Štítky",
+	"tag": "štítek",
+	"no-pages-found": "Žádný obsah nebyl nalezen.",
+	"next-or-previous-post": "Další nebo předchozí příspěvky",
+	"previous": "Předchozí",
+	"next": "Další"
+}

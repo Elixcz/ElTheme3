@@ -1,0 +1,90 @@
+/**
+ * ElTheme3
+ * ---------------------------------------------------------------------
+ * Theme for Bludit CMS v3
+ *
+ * author: Elix
+ * version: 1.0.0
+ * https://github.com/Elixcz/ElTheme3
+ */
+body {
+	font-family: 'Nunito';
+	font-size: 1rem;
+	color: #BFBFBF;
+	background-color: #202428;
+}
+a, a:active{
+	color: #D6D6D6 !important;
+	text-decoration: none;
+}
+a:hover, a:focus{
+	color: #6c757d !important;
+}
+i.bi{
+	margin-right: 4px;
+	text-decoration: none !important;
+}
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+.social-icons{
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+a.social-link:hover, a.social-link:focus{
+	color: #fff !important;
+}
+span.badge:hover, span.badge:focus{
+	background-color: #D6D6D6 !important;
+}
+a.lightbox, .gallery{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+a.lightbox:hover{
+	color: #D6D6D6 !important;
+}
+a.lightbox img{
+	margin: 0 auto;
+	float: none;
+	max-width: 400px;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+a.lightbox img:hover{
+	box-shadow: none !important;
+	color: #D6D6D6 !important;
+}
+.gallery a img{
+	margin: 0.5rem;
+	float: left;
+	max-width: 200px;
+}
+#goTopSpan{
+	color: #FFA500;
+}
+@media (max-width: 575.98px) {
+	.social-icons{
+		display: block !important;
+		width: 100% !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		margin-top: 3rem!important;
+		margin-bottom: 1.5rem!important;
+		text-align: center !important;
+		float: none !important;
+	}
+	.social-icons a{
+		margin-right: 0.8rem !important;
+	}
+}

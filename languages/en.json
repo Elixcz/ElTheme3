@@ -1,0 +1,19 @@
+{
+	"theme-data":
+	{
+		"name": "ElTheme3",
+		"description": "Simple and dark theme for Bludit CMS v3"
+	},
+	"toogle-navigation": "Toogle navigation",
+	"all-posts-from-category": "All posts from category",
+	"all-posts-with-tag": "All posts with tag",
+	"rss-feed": "RSS feed",
+	"related-posts": "Related posts",
+	"no-related-posts-found!": "No related posts found!",
+	"tags": "Tags",
+	"tag": "Tag",
+	"no-pages-found": "No pages found",
+	"next-or-previous-post": "Next or previous post",
+	"previous": "Previous",
+	"next": "Next"
+}
