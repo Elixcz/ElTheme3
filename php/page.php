@@ -1,6 +1,6 @@
 <?php defined('BLUDIT') or die( 'Unauthorized access!' );?>
 <?php Theme::plugins( 'pageBegin' ); ?>
-    <div class="container pb-5">
+    <div class="container pb-1">
         <div class="row">
             <div class="col-sm-12">
                 <?php if ( $page->coverImage() ): ?>

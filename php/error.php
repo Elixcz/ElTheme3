@@ -15,7 +15,7 @@
 			}
 		}
 		</style>
-    <div class="container pb-5">
+    <div class="container pb-1">
         <div class="row">
             <div class="col-sm-12 col-lg-5 text-center">
 				<i class="icon bi bi-exclamation-triangle-fill text-warning" style="font-size:7rem"></i>

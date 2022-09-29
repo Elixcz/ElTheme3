@@ -1,5 +1,5 @@
 <?php defined('BLUDIT') or die('Unauthorized access!');?>
-<div class="container pb-5">
+<div class="container pb-1">
 	<div class="row">
 		<?php
 		if ( empty( $content ) ) {
