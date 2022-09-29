@@ -23,7 +23,7 @@
 		<?php endif;?>
 
 		<?php foreach ($content as $page): ?>
-			<div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+			<div class="col-sm-12 col-md-6 col-lg-4 mb-3 post">
 
 		        <div class="card  bg-dark shadow h-100">
 					<a class="text-white" href="<?= $page->permalink(); ?>" title="<?= $page->title(); ?>" tabindex="0">

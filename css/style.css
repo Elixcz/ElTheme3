@@ -87,4 +87,7 @@ a.lightbox img:hover{
 	.social-icons a{
 		margin-right: 0.8rem !important;
 	}
+	.post{
+		margin-bottom: 2rem !important;
+	}
 }
