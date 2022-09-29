@@ -23,6 +23,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="<?= $site->url(); ?>/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="<?= $site->url(); ?>/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="<?= $site->url(); ?>/favicon-16x16.png">
+<?= Theme::favicon('favicon.ico', 'image/x-icon');?>
 <link rel="manifest" href="<?= $site->url(); ?>/site.webmanifest">
 <link rel="mask-icon" href="<?= $site->url(); ?>/safari-pinned-tab.svg" color="#273a3f">
 <meta name="msapplication-TileColor" content="#da532c">
