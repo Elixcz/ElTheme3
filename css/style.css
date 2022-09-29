@@ -73,7 +73,7 @@ a.lightbox img:hover{
 #goTopSpan{
 	color: #FFA500;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 992px) {
 	.social-icons{
 		display: block !important;
 		width: 100% !important;
