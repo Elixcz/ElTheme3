@@ -1,7 +1,12 @@
 <?php defined('BLUDIT') or die('Unauthorized access!');?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3 shadow fixed-top">
     <div class="container">
-		<a class="navbar-brand fw-bolder fs-4" href="<?= $site->url(); ?>" title="<?= $site->title(); ?>"><?= $site->title(); ?></a>
+		<a class="navbar-brand fw-bolder fs-4" href="<?= $site->url(); ?>" title="<?= $site->title(); ?>">
+			<?php if( $site->logo() ):?>
+			<img src="<?= $site->logo(); ?>" alt="" width="30" height="30" class="d-inline-block align-text-top">
+			<?php endif; ?>
+			<?= $site->title(); ?>
+		</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#openNavbar" aria-controls="openNavbar" aria-expanded="false" aria-label="<?= $L->g('Toogle navigation');?>">
 			<span class="navbar-toggler-icon"></span>
