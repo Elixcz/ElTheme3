@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <?php if ( $page->coverImage() ): ?>
-					<img src="<?= $page->coverImage(); ?>" class="img-fluid" alt="">
+					<img src="<?= $page->coverImage(); ?>" class="img-fluid rounded-top" alt="" width="2048" height="2048">
                 <?php endif ?>
                 <h1 class="h2 fw-bold mt-4 pb-2 text-center" id="post"><?= $page->title(); ?></h1>
             </div>
