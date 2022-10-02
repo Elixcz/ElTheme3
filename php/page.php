@@ -12,9 +12,16 @@
             <div class="col-sm-3 text-secondary pb-3">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item bg-dark text-secondary"><i class="bi bi-folder text-secondary"></i>&nbsp;<a href="<?= $page->categoryPermalink() ?>" title="<?= $page->category() ?>" rel="follow, noindex"><?= $page->category() ?></a></li>
-                  <li class="list-group-item bg-dark text-secondary border-secondary small"><i class="bi bi-clock text-secondary"></i>&nbsp;<?= $page->date(); ?></li>
+                  <li class="list-group-item bg-dark text-secondary small"><i class="bi bi-clock text-secondary"></i>&nbsp;<?= $page->date(); ?></li>
+                  <li class="list-group-item bg-dark text-secondary"><i class="bi bi-translate text-secondary"></i>&nbsp;<a href="" id="translateBtn" title="Translate this page">Translate</a></li>
                 </ul>
             </div>
+            <script defer type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
+			<script defer type="text/javascript">
+			    function googleTranslateInit() {
+			      new google.translate.TranslateElement({pageLanguage: 'cs'}, 'translateBtn');
+			    }
+			</script>
 
             <div class="col-sm-9">
                 <p class="text-secondary"><?= $page->content(); ?></p>
