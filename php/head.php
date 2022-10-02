@@ -2,7 +2,6 @@
 <!--[if IE]>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <![endif]-->
-<meta name="twitter:dnt" content="on">
 <?= Theme::metaTags( 'title' ); ?>
 <?= Theme::metaTags( 'description' ); ?>
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
