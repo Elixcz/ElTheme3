@@ -41,11 +41,8 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js" integrity="sha512-vyRAVI0IEm6LI/fVSv/Wq/d0KUfrg3hJq2Qz5FlfER69sf3ZHlOrsLriNm49FxnpUGmhx+TaJKwJ+ByTLKT+Yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script defer src="https://cdn.jsdelivr.net/npm/jquery-gotop@2.0.0/src/jquery.gotop.min.js" integrity="sha256-JVizKyAZlNd42va0G2pjhaoMhe8P2MtD65jOv8hp1yU=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script defer src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js" integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<?php
-		echo Theme::js('js/script.js');
-
-		Theme::plugins('siteBodyEnd');
-		?>
+		<script src="<?= DOMAIN_THEME_JS . 'script.js?v=' . ELTHEME3_VERSION;?>"></script>
+		<?php Theme::plugins('siteBodyEnd');?>
 		</div>
 		<div id="goTop"></div>
 	</body>

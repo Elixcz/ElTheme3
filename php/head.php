@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css" integrity="sha256-RdH19s+RN0bEXdaXsajztxnALYs/Z43H/Cdm1U4ar24=" crossorigin="anonymous" referrerpolicy="no-referrer">
-<?= Theme::css( 'css/style.css' ); ?>
+<link rel="stylesheet" href="<?= DOMAIN_THEME_CSS . 'style.css?v=' . ELTHEME3_VERSION;?>">
 <link rel="apple-touch-icon" sizes="180x180" href="<?= $site->url(); ?>/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="<?= $site->url(); ?>/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="<?= $site->url(); ?>/favicon-16x16.png">
