@@ -1,6 +1,9 @@
 # ElTheme3
 
-Simple dark theme for [Bludit CMS](https://www.bludit.com/) 3.14.1.
+Simple dark responsive theme for [Bludit CMS](https://www.bludit.com/) 3.14.1.
+
+### Homepage screenshot
+![](https://raw.githubusercontent.com/Elixcz/ElTheme3/main/screenshot.png)
 
 ### Support
 **ElTheme** is open source and free. Donate for the coffee:
