@@ -19,7 +19,7 @@
 					if( $key == 'uncategorized') continue;
 				?>
 				<li class="nav-item ms-2">
-					<a class="nav-link" aria-current="page" href="<?= DOMAIN_CATEGORIES . $key; ?>" title="<?= $L->g('All posts from category');?> <?= $fields['name']; ?>" rel="noindex, follow"><?= $fields['name']; ?></a>
+					<a class="nav-link" aria-current="page" href="<?= DOMAIN_CATEGORIES . $key; ?>" title="<?= $L->g('All posts from category');?> <?= $fields['name']; ?>" rel="noindex, follow"><i class="bi bi-chevron-compact-right me-2 cat-icon"></i><?= $fields['name']; ?></a>
 				</li>
 				<?php
 				endif;

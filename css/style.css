@@ -94,3 +94,8 @@ a.lightbox img:hover{
 		display: none !important;
 	}
 }
+@media (min-width: 992.5px) {
+	i.cat-icon{
+		display: none !important;
+	}
+}
