@@ -1,10 +1,10 @@
 /**
  * ElTheme3
  * ---------------------------------------------------------------------
- * Theme for Bludit CMS v3
+ * Simple dark responzive theme for Bludit CMS v3.14
  *
  * author: Elix
- * version: 1.0.0
+ * version: 1.1.4
  * https://github.com/Elixcz/ElTheme3
  */
 body {
@@ -89,5 +89,8 @@ a.lightbox img:hover{
 	}
 	.post{
 		margin-bottom: 2rem !important;
+	}
+	.translate-item{
+		display: none !important;
 	}
 }

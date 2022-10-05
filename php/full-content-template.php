@@ -11,8 +11,8 @@
 
             <div class="col-sm-12 col-lg-6 offset-lg-3">
                 <p class="text-secondary"><?= $page->content(); ?></p>
+                <p class="clearfix"></p>
                 <?php Theme::plugins( 'pageEnd' ); ?>
-				<p class="clearfix"></p>
             </div>
 
         </div>

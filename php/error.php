@@ -26,3 +26,4 @@
         </div>
     </div>
 <?php Theme::plugins('pageEnd'); ?>
+<p class="clearfix"></p>
