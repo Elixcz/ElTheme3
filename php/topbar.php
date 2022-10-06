@@ -16,7 +16,7 @@
 			<ul class="navbar-nav ms-2 me-auto mb-2 mb-lg-0">
 				<?php foreach ( $categories->db as $key => $fields ):
 				if( $fields[ 'list' ] ):
-					if( $key == 'uncategorized') continue;
+					if( $key == 'general') continue;
 				?>
 				<li class="nav-item ms-2">
 					<a class="nav-link" aria-current="page" href="<?= DOMAIN_CATEGORIES . $key; ?>" title="<?= $L->g('All posts from category');?> <?= $fields['name']; ?>" rel="noindex, follow"><i class="bi bi-chevron-compact-right me-2 cat-icon"></i><?= $fields['name']; ?></a>
