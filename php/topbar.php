@@ -30,7 +30,7 @@
 				<div class="social-icons">
 				<?php foreach ( Theme::socialNetworks() as $key => $label ): ?>
 
-					<a class="text-secondary td-none social-link me-1" href="<?= $site->{ $key }(); ?>" title="<?= $label; ?>" target="_blank">
+					<a class="text-secondary td-none social-link me-3" href="<?= $site->{ $key }(); ?>" title="<?= $label; ?>" target="_blank">
 						<img class="d-inline nav-svg-icon" src="<?= DOMAIN_THEME . 'img/' . $key . '.svg' ?>" alt="<?= $label ?>" width="22" height="22">
 					</a>
 
