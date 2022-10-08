@@ -19,12 +19,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css" integrity="sha256-RdH19s+RN0bEXdaXsajztxnALYs/Z43H/Cdm1U4ar24=" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="<?= DOMAIN_THEME_CSS . 'style.css?v=' . ELTHEME3_VERSION;?>">
-<link rel="apple-touch-icon" sizes="180x180" href="<?= $site->url(); ?>/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?= $site->url(); ?>/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?= $site->url(); ?>/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="<?= DOMAIN_BASE; ?>apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?= DOMAIN_BASE; ?>favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?= DOMAIN_BASE; ?>favicon-16x16.png">
 <?= Theme::favicon('favicon.ico', 'image/x-icon');?>
-<link rel="manifest" href="<?= $site->url(); ?>/site.webmanifest">
-<link rel="mask-icon" href="<?= $site->url(); ?>/safari-pinned-tab.svg" color="#273a3f">
+<link rel="manifest" href="<?= DOMAIN_BASE; ?>site.webmanifest">
+<link rel="mask-icon" href="<?= DOMAIN_BASE; ?>safari-pinned-tab.svg" color="#273a3f">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#161717">
 <?php Theme::plugins( 'siteHead' ); ?>
