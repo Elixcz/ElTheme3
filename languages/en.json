@@ -2,7 +2,7 @@
 	"theme-data":
 	{
 		"name": "ElTheme3",
-		"description": "Simple dark theme for Bludit CMS v3"
+		"description": "Simple dark and modern responsive theme for Bludit CMS v3.14"
 	},
 	"toogle-navigation": "Toogle navigation",
 	"all-posts-from-category": "All posts from category",
@@ -13,7 +13,11 @@
 	"tags": "Tags",
 	"tag": "Tag",
 	"no-pages-found": "No pages found",
+	"page-not-found!": "PAGE NOT FOUND!",
 	"next-or-previous-post": "Next or previous post",
 	"previous": "Previous",
-	"next": "Next"
+	"next": "Next",
+	"next-posts": "Next posts",
+	"previous-posts": "Previous posts",
+	"translate": "Translate"
 }

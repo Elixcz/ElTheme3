@@ -1,6 +1,5 @@
 /** Javascript **/
 $(document).ready(function() {
-
 	/** GoTop Button **/
 	$(function () {
 		$('#goTop').goTop({
@@ -10,7 +9,6 @@ $(document).ready(function() {
 			"opacity":0.75
 		});
 	});
-
 	/** Magnific popup **/
 	$('.lightbox').magnificPopup({
 		type:'image',
@@ -20,7 +18,6 @@ $(document).ready(function() {
 			tError: '<a href="%url%">Obrázek</a> nelze načíst.'
 		}
 	});
-
 	$('.gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
@@ -31,5 +28,4 @@ $(document).ready(function() {
 			tCounter: '%curr% z %total%'
 		}
 	});
-
 });

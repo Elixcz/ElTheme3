@@ -13,13 +13,13 @@
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item bg-dark text-secondary"><i class="bi bi-folder text-secondary"></i>&nbsp;<a href="<?= $page->categoryPermalink() ?>" title="<?= $page->category() ?>" rel="follow, noindex"><?= $page->category() ?></a></li>
                   <li class="list-group-item bg-dark text-secondary small"><i class="bi bi-clock text-secondary"></i>&nbsp;<?= $page->date(); ?></li>
-                  <li class="list-group-item bg-dark text-secondary translate-item"><i class="bi bi-translate text-secondary"></i>&nbsp;<a href="" id="translateBtn" title="Translate this page">Translate</a></li>
+                  <li class="list-group-item bg-dark text-secondary translate-item"><i class="bi bi-translate text-secondary"></i>&nbsp;<a href="" id="translateBtn" title="Translate this page"><?= $L->get('Translate');?></a></li>
                 </ul>
             </div>
             <script defer type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
 			<script defer type="text/javascript">
 			    function googleTranslateInit() {
-			      new google.translate.TranslateElement({pageLanguage: 'cs'}, 'translateBtn');
+			      new google.translate.TranslateElement({pageLanguage: '<?= Theme::lang() ?>'}, 'translateBtn');
 			    }
 			</script>
 

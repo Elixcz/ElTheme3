@@ -1,6 +1,6 @@
 <?php defined('BLUDIT') or die('Unauthorized access!');?>
 <!--[if IE]>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <![endif]-->
 <?= Theme::metaTags( 'title' ); ?>
 <?= Theme::metaTags( 'description' ); ?>
@@ -20,9 +20,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css" integrity="sha256-RdH19s+RN0bEXdaXsajztxnALYs/Z43H/Cdm1U4ar24=" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="<?= DOMAIN_THEME_CSS . 'style.css?v=' . ELTHEME3_VERSION;?>">
 <link rel="apple-touch-icon" sizes="180x180" href="<?= DOMAIN_BASE; ?>apple-touch-icon.png">
+<link rel="icon" type="image/png" href="<?= DOMAIN_BASE; ?>favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="<?= DOMAIN_BASE; ?>favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="<?= DOMAIN_BASE; ?>favicon-16x16.png">
-<?= Theme::favicon('favicon.ico', 'image/x-icon');?>
 <link rel="manifest" href="<?= DOMAIN_BASE; ?>site.webmanifest">
 <link rel="mask-icon" href="<?= DOMAIN_BASE; ?>safari-pinned-tab.svg" color="#273a3f">
 <meta name="msapplication-TileColor" content="#da532c">

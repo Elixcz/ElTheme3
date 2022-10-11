@@ -61,10 +61,10 @@
     <div class="container py-5 text-center">
 		<div class="btn-group rounded-pill" role="group" aria-label="<?= $L->g('Next or previous post');?>">
 		<?php if ( Paginator::showPrev() ): ?>
-			<a class="btn text-dark fw-bold px-5" style="background-color: #7F7F7F;opacity:0.8;" href="<?= Paginator::previousPageUrl(); ?>" role="button" title="<?php $L->p('Previous');?>" rel="noindex, follow"><i class="bi bi-arrow-left"></i><?php $L->p('Previous');?></a>
+			<a class="btn text-dark fw-bold px-5" style="background-color: #7F7F7F;opacity:0.8;" href="<?= Paginator::previousPageUrl(); ?>" role="button" title="<?php $L->p('Previous');?>" rel="noindex, follow"><i class="bi bi-arrow-left"></i><?php $L->p('Previous posts');?></a>
 		<?php endif ?>
 		<?php if ( Paginator::showNext() ): ?>
-			<a class="btn text-dark fw-bold px-5" style="background-color: #7F7F7F;opacity:0.8;" href="<?= Paginator::nextPageUrl(); ?>" role="button" title="<?php $L->p('Next');?>" rel="noindex, follow"><?php $L->p('Next');?> <i class="bi bi-arrow-right"></i></a>
+			<a class="btn text-dark fw-bold px-5" style="background-color: #7F7F7F;opacity:0.8;" href="<?= Paginator::nextPageUrl(); ?>" role="button" title="<?php $L->p('Next');?>" rel="noindex, follow"><?php $L->p('Next posts');?> <i class="bi bi-arrow-right"></i></a>
 		<?php endif ?>
 		</div>
     </div>

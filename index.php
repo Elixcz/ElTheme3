@@ -1,6 +1,6 @@
 <?php defined('BLUDIT') or die('Unauthorized access!');?>
 <!doctype html>
-<html lang="<?php echo Theme::lang() ?>">
+<html lang="<?= Theme::lang() ?>">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">

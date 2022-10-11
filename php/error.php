@@ -21,7 +21,7 @@
 				<i class="icon bi bi-exclamation-triangle-fill text-warning" style="font-size:7rem"></i>
 			</div>
 			<div class="col-sm-12 col-lg-7 text-center">
-				<p class="text text-secondary fw-bold" style="font-size:200%">ERROR 404<br />PAGE NOT FOUND!</p>
+				<p class="text text-secondary fw-bold" style="font-size:200%">ERROR 404<br /><?= $L->get('PAGE NOT FOUND!');?></p>
 			</div>
         </div>
     </div>
