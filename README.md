@@ -30,6 +30,7 @@ Simple dark and modern responsive theme for [Bludit CMS](https://www.bludit.com/
 
 ### Support
 **ElTheme** is open source and free. Donate for coffee or just like that:
+
 [BTC](bitcoin:bc1q9pe4at2zk9jrrx6sxw9d9ckqjgsj644eelzl03?message=ElTheme3): `bc1q9pe4at2zk9jrrx6sxw9d9ckqjgsj644eelzl03`
 
 ### License
