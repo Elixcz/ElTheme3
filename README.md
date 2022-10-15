@@ -19,10 +19,10 @@ Simple dark and modern responsive theme for [Bludit CMS](https://www.bludit.com/
 
 
 ### Homepage screenshot
-![](https://raw.githubusercontent.com/Elixcz/ElTheme3/main/screenshot-1.png)
+![](https://raw.githubusercontent.com/Elixcz/ElTheme3/main/screenshots/screenshot-1.png)
 
 ### Page screenshot
-![](https://raw.githubusercontent.com/Elixcz/ElTheme3/main/screenshot-2.png)
+![](https://raw.githubusercontent.com/Elixcz/ElTheme3/main/screenshots/screenshot-2.png)
 
 ### Installation
  - Upload the unzipped template to the `bl-themes` folder.

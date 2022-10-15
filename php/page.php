@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <?php if ( $page->coverImage() ): ?>
-					<img src="<?= $page->coverImage(); ?>" class="img-fluid rounded-top" alt="" width="2048" height="2048">
+					<img src="<?= $page->coverImage(); ?>" class="img-fluid rounded-top" alt="<?= $page->title(); ?>" width="2048" height="2048">
                 <?php endif ?>
                 <h1 class="h2 fw-bold mt-4 pb-2 text-center" id="post"><?= $page->title(); ?></h1>
             </div>
@@ -24,12 +24,12 @@
 			</script>
 
             <div class="col-sm-9">
-                <p class="text-secondary"><?= $page->content(); ?></p>
+                <div class="card-text"><?= $page->content(); ?></div>
 				<p class="clearfix"></p>
 				<div class="row mt-5">
 
 					<div class="col-md-12 col-lg-7">
-						<h3 class="h4 mt-3"><?= $L->g('Related posts');?></h3>
+						<h3 class="h4 mt-3 pt-3"><?= $L->g('Related posts');?></h3>
 		                <?php
 						$sort = array();
 						$relatedPages = $page->related();
@@ -65,7 +65,7 @@
 					</div>
 
 				</div>
-				<p class="clearfix"></p>
+				<p class="clearfix pt-3"></p>
 				<?php Theme::plugins( 'pageEnd' ); ?>
             </div>
 

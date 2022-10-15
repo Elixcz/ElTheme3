@@ -4,7 +4,7 @@
  * Simple dark responzive theme for Bludit CMS v3.14
  *
  * author: Elix
- * version: 1.1.4
+ * version: 1.1.6
  * https://github.com/Elixcz/ElTheme3
  */
 body {
@@ -14,7 +14,7 @@ body {
 	background-color: #202428;
 }
 a, a:active{
-	color: #D6D6D6 !important;
+	color: #E8E8E8 !important;
 	text-decoration: none;
 }
 a:hover, a:focus{
@@ -31,6 +31,12 @@ i.bi{
 .navbar .navbar-toggler {
   top: .25rem;
   right: 1rem;
+}
+.card-text{
+	color: #A3A3A3;
+}
+.card-text a{
+	color: #E8E8E8;
 }
 .social-icons{
 	display: block;

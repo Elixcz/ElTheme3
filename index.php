@@ -17,25 +17,17 @@
 			if ( $page->slug() == 'error' )
 			{
 				include ( THEME_DIR_PHP . 'error.php' );
-
 			} elseif ( $page->template() )
 			{
 				include ( THEME_DIR_PHP . $page->template() . '.php' );
-
 			}else{
-
 				include ( THEME_DIR_PHP . 'page.php' );
-
 			}
-
 		} else {
 
 			include ( THEME_DIR_PHP . 'home.php' );
-
 		}
-
 		include ( THEME_DIR_PHP . 'footer.php' );
-
 		?>
 		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js" integrity="sha512-vyRAVI0IEm6LI/fVSv/Wq/d0KUfrg3hJq2Qz5FlfER69sf3ZHlOrsLriNm49FxnpUGmhx+TaJKwJ+ByTLKT+Yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

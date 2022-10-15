@@ -1,6 +1,6 @@
 <?php defined('BLUDIT') or die('Unauthorized access!');
 
-define('ELTHEME3_VERSION', '1.1.5');
+define('ELTHEME3_VERSION', '1.1.6');
 
 /** Shortens the content of the post to the specified number of characters.
  *  (Based on the Text helper of the Codeigniter framework.)

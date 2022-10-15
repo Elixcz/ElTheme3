@@ -27,7 +27,7 @@
 
 		        <div class="card  bg-dark shadow h-100">
 					<a class="text-white" href="<?= $page->permalink(); ?>" title="<?= $page->title(); ?>" tabindex="0">
-						<img src="<?php echo ( $page->coverImage() ? $page->coverImage() : Theme::src('img/noimage.png') ) ?>" class="card-img-top" alt="" />
+						<img src="<?php echo ( $page->coverImage() ? $page->coverImage() : Theme::src('img/noimage.png') ) ?>" class="card-img-top img-fluid" alt="" width="2048" height="2048">
 					</a>
 					<div class="card-body">
 
